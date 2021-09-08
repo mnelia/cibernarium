@@ -1,0 +1,109 @@
+
+.mainHeader{
+    background-color: black;
+    max-width: 1200px;
+    height: 120px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.upper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: grey;
+    height: 40px;
+    width: 90%;
+    margin-top: 15px;
+
+}
+
+.myUpper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    height: 40px;
+    width: 90%;
+}
+
+.mainBox, .thirdBox {
+    background-color: blanchedalmond;
+    width: 200px;
+    margin: 20px;
+
+}
+
+.secondBox{
+    background-color: khaki;
+    width: 400px;
+}
+
+.contenedor{
+    background-color: khaki;
+    width: 800px;
+    height: 30px;
+    margin: 20px;
+}
+
+.mainContenedor{
+    background-color: black;
+    max-width: 1200px;
+    height: 150px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.flexBox{
+    background-color: lightcoral;
+    width: 65%;
+    min-height: 120px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 80% ;
+    background-color: lightslategrey;
+    height: 20px;
+    margin: 10px;
+}
+
+.boxDown{
+    background-color: linen;
+    height: 20px;
+    width: 90%;
+}
+
+.shortBox{
+    background-color: rgb(104, 95, 95);
+    width: 30%;
+    min-height: 120px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myBox1{
+    background-color: black;
+    max-width: 1200px;
+    height: 60px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;  
+}
+
+.myBox{
+    background-color: grey;
+    height: 40px;
+    width: 1120px;
+}
