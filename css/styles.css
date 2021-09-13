@@ -17,7 +17,7 @@
     justify-content: space-between;
     background-color: grey;
     height: 40px;
-    width: 90%;
+    width: 95%;
     margin-top: 15px;
 
 }
@@ -28,7 +28,7 @@
     justify-content: center;
     background-color: grey;
     height: 40px;
-    width: 90%;
+    width: 95%;
 }
 
 .mainBox, .thirdBox {
@@ -53,7 +53,7 @@
 .mainContenedor{
     background-color: black;
     max-width: 1200px;
-    height: 150px;
+   /* height: 150px;*/
     padding-top: 20px;
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
 
 .flexBox{
     background-color: lightcoral;
-    width: 65%;
+    min-width: 63%;
     min-height: 120px;
     margin-bottom: 20px;
     display: flex;
@@ -73,7 +73,7 @@
 .box{
     width: 80% ;
     background-color: lightslategrey;
-    height: 20px;
+    height: 10%;
     margin: 10px;
 }
 
@@ -82,6 +82,7 @@
     height: 20px;
     width: 90%;
 }
+
 
 .shortBox{
     background-color: rgb(104, 95, 95);
@@ -105,5 +106,159 @@
 .myBox{
     background-color: grey;
     height: 40px;
-    width: 1120px;
+    width: 95%;
+}
+
+
+/*Media queries*/
+/*Ipad*/
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+    .mainContenedor{
+        display: flex;
+        flex-direction: column;
+        background-color: yellow;
+        align-items: center;
+        /*display: grid;
+        grid-template-areas: 
+        "flexBox"
+        "shortBox";
+        grid-template-columns: 80%;
+        grid-template-rows: 50%;
+        background-color: yellow;
+        justify-content: space-evenly;
+        align-items: center;*/
+
+    }
+
+    .flexBox{
+        background-color: lightcoral;
+        min-width: 90%;
+        min-height: 40%;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .box{
+        width: 80% ;
+        background-color: lightslategrey;
+        height: 20%;
+        margin: 10px;
+    }
+
+    .boxDown{
+        background-color: linen;
+        height: 15%;
+        width: 90%;
+        margin: 10px;
+        
+    }
+
+    .shortBox{
+        background-color: rgb(104, 95, 95);
+        width: 90%;
+        min-height: 40%;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .myBox{
+        background-color: grey;
+        height: 40px;
+        width: 90%;
+    }
+}
+
+/* vista mobile */
+@media only screen and (min-width: 0px) and (max-width: 767px){
+
+    .mainHeader{
+        background-color: black;
+        max-width: 1200px;
+        min-height: 250px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .upper{
+        min-height: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        margin-top: 10px;
+    }
+
+    .mainBox, .thirdBox, .secondBox {
+        background-color: blanchedalmond;
+        width: 70%;
+        min-height: 15%;
+        margin: 5px;
+    
+    }
+    
+    .myUpper{
+        min-height: 45%;
+    }
+
+    .contenedor{
+        background-color: khaki;
+        width: 70%;
+        min-height: 15%;
+        margin: 20px;
+    }
+
+    .mainContenedor{
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexBox{
+        width: 90%;
+        min-height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boxing{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box{
+        width: 80% ;
+        background-color: lightslategrey;
+        height: 20%;
+        margin: 10px;
+    }
+
+    .boxDown{
+        width: 80%;
+        margin: 10px;
+    }
+
+    .shortBox{
+        width: 90%;
+        min-height: 25%;
+    }
+
+    .myBox1{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .myBox{
+        min-width: 80%;
+        margin-bottom: 20px;
+    }
+
 }
