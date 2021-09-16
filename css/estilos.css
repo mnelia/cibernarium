@@ -1,0 +1,237 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.mainHeader{
+    min-width: 1200px;
+    min-height: 500px;
+    background-image: url(../assets/img/actividad.jpg.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.logoPage{
+    width: 70px;
+    height: 70px;
+    max-height: 70px;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-height: 10px;
+}
+
+.flexEnd{
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    margin-right: 0%;
+    max-height: fit-content;
+    
+}
+
+.fas{
+    margin: 1px;
+}
+
+ol{
+    margin: 1px;
+}
+
+.fab{
+    margin-bottom: 5px ;
+}
+
+.mainText{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+    padding-left: ;
+    color: violet;
+    opacity: 0.5;
+    justify-content: center;
+}
+
+ol:hover {
+    color:rgb(105, 105, 105);
+    background: salmon;
+    height: 10px;
+}
+
+.fab:hover {
+    color:rgb(105, 105, 105);
+    background: salmon;
+    height: 10px;
+}
+
+.mainContenedor{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(105, 105, 105);
+    min-height: 400px;
+    min-width: 1200px;
+}
+
+.japon{
+    width: 50%;
+    min-height: 35%;
+    border: solid 4px rgb(216, 216, 216);
+    margin: 3px;
+    background-image: url(../assets/img/cerezo.jpg);
+}
+
+.sunrise{
+    background-image: url(../assets/img/atardecer.jpg);
+    width: 50%;
+    min-height: 35%;
+    border: solid 4px rgb(216, 216, 216);
+    margin: 3px;
+}
+
+.miArticulo{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(105, 105, 105);
+    min-height: 300px;
+    min-width: 1200px;
+}
+
+.cultura{
+    min-height:250px;
+    min-width: 1150px;
+    background-color: rgb(196, 196, 196);
+    padding-left: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+   
+}
+
+p, h5{
+    margin-left: 20px;
+    font-size: 2em;
+}
+
+.mainDiv{
+    min-height:150px;
+    min-width: 1150px;
+    background-color:tan;
+    padding-left: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0px;
+    
+
+}
+
+.medio{
+    min-height:70px;
+    min-width: 1150px;
+    background-image: url(../assets/img/flores.jpg);
+    margin-right: 15px;
+    display: flex;
+    align-items: flex-end;
+    min-height: 80px;
+    margin: 0px;
+
+}
+
+.fondo{
+    display: flex;
+    align-items: flex-end;
+    height: 70px;
+}
+
+
+@media only screen and (min-width: 1025px) {
+
+    .mainText{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: max-content;
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px){
+
+  
+    .mainContenedor{
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(105, 105, 105);
+        min-height: 400px;
+    }
+    
+    .japon{
+        width: 50%;
+        min-height: 35%;
+        border: solid 4px rgb(216, 216, 216);
+        margin: 3px;
+        background-image: url(../assets/img/cerezo.jpg);
+    }
+    
+    .sunrise{
+        background-image: url(../assets/img/atardecer.jpg);
+        width: 50%;
+        min-height: 35%;
+        border: solid 4px rgb(216, 216, 216);
+        margin: 3px;
+    }
+
+    .miArticulo{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(105, 105, 105);
+        min-height: 300px;
+        min-width: 1200px;
+    }
+    
+    .cultura{
+        min-height:250px;
+        min-width: 1150px;
+        background-color: rgb(196, 196, 196);
+        padding-left: 5px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+       
+    }
+    
+    p, h5{
+        margin-left: 20px;
+        font-size: 2em;
+    }
+    
+    .mainDiv{
+        min-height:150px;
+        min-width: 1100px;
+        background-color:tan;
+        padding-left: 5px;
+        margin-right: 20px;
+        margin-left: 20px;
+        
+    
+    }
+
+    .medio{
+        min-height:70px;
+        min-width: 1100px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+}
+
+
